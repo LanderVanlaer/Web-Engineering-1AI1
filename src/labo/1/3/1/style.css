@@ -1,0 +1,58 @@
+body {
+    background-color: yellow;
+    margin: 5%;
+    font-family: Lucida, serif;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-family: Courier, serif;
+    font-size: 40pt;
+}
+
+h2 {
+    color: green;
+    font-size: 32pt;
+    font-family: fantasy;
+    margin-top: 2pt;
+    margin-bottom: 1pt;
+}
+
+h3 {
+    color: yellow;
+    background-color: fuchsia;
+    font-size: 20pt;
+    font-family: Verdana, serif;
+}
+
+h4 {
+    color: black;
+    text-decoration: underline;
+}
+
+p {
+    padding-left: 8%;
+    color: blue;
+    font-size: 80%;
+}
+
+pre {
+    color: white;
+    background-color: black;
+}
+
+em {
+    color: green;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+p.CLASS {
+    text-transform: uppercase;
+    padding-left: 0;
+    color: white;
+    background-color: grey;
+    border: 1px solid blue;
+}
