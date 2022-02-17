@@ -1,5 +1,10 @@
 # Web-Engineering-1AI1
 
+## Links
+
+- [Pages (rendered)](https://landervanlaer.github.io/Web-Engineering-1AI1/)
+- [GitHub (source)](https://github.com/LanderVanlaer/Web-Engineering-1AI1/)
+
 ## Labo
 
 <ol type="1" start="1">
