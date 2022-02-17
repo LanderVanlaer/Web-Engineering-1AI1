@@ -1,0 +1,29 @@
+# Web-Engineering-1AI1
+
+## Labo
+
+<ol type="1" start="1">
+    <li>
+        <ol type="1" start="1">
+            <li> inleiding
+                <ol type="1" start="1">
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/1/1/1/">recept</a></li>
+                </ol>
+            </li>
+            <li> Basis HTML
+                <ol type="1" start="1">
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/1/2/1/">document</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/1/2/2/">bold / italic / underline</a></li>
+                </ol>
+            </li>
+            <li> Basis CSS
+                <ol type="1" start="1">
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/1/3/1/">extern stijlblad</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/1/3/2/">intern stijlblad</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/1/3/3/">colored divs</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/1/3/4/">colored divs black background</a></li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+</ol>
