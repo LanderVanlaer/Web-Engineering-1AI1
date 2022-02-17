@@ -1,0 +1,24 @@
+main {
+    display: block;
+    width: 200px;
+    height: 375px;
+    background-color: black;
+}
+
+div {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+div.red {
+    background-color: red;
+}
+
+div.blue {
+    background-color: blue;
+}
+
+div.yellow {
+    background-color: yellow;
+}
