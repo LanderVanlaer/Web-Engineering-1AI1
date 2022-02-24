@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 2.4.3</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: grey;
+            margin: 10px;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        div:nth-child(1):hover {
+            background-color: black;
+        }
+        
+        div:nth-child(2):active {
+            background-color: black;
+        }
+        
+        div:nth-child(3):focus {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>:hover</div>
+    <div>:active</div>
+    <div tabindex="0">:focus<br><em>(press [TAB])</em></div>
+</body>
+</html>
