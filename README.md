@@ -44,6 +44,7 @@
                 <ol type="1" start="1">
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/2/5/1/">Hobby's van vrienden</a></li>
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/2/5/2/">definitielijst</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/2/5/3/">definitielijst</a></li>
                 </ol>
             </li>
         </ol>
