@@ -49,6 +49,11 @@
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/2/5/5/">Wikipedia list</a></li>
                 </ol>
             </li>
+            <li> tabellen
+                <ol type="1" start="1">
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/2/6/1/">tabel 1: aantal studenten</a></li>
+                </ol>
+            </li>
         </ol>
     </li>
 </ol>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 2.6.1</title>
+    <style>
+        table {
+            caption-side: bottom;
+        }
+        
+        table, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        
+        table table {
+            width: 100%;
+            height: 100%;
+            border-style: hidden;
+            
+        }
+        
+        td {
+            padding: 3px;
+        }
+        
+        td.has-table {
+            padding: 0;
+        }
+        
+        caption {
+            border-bottom: none;
+        }
+        
+        table thead tr th {
+            width: 100px;
+        }
+        
+        .right {
+            text-align: right;
+        }
+        
+        .left {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Tabel 1: aantal studenten</caption>
+        <thead>
+            <tr>
+                <td colspan="5">Aantal Studenten graduaat op het De NAYER instituut</td>
+            </tr>
+            <tr>
+                <th scope="col" class="right">jaar:</th>
+                <th scope="col">1</th>
+                <th scope="col">2</th>
+                <th scope="col">3</th>
+                <th scope="col">totaal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="left">e</td>
+                <td>55</td>
+                <td>45</td>
+                <td class="has-table">
+                    <table>
+                        <tr>
+                            <td>e</td>
+                            <td>i</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>14</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>132</td>
+            </tr>
+            <tr>
+                <td class="left">em</td>
+                <td>66</td>
+                <td>38</td>
+                <td class="has-table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>aut</td>
+                                <td>kli</td>
+                                <td>ond</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>7</td>
+                                <td>8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>137</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" class="left">totaal</th>
+                <td>121</td>
+                <td>83</td>
+                <td>65</td>
+                <td>269</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
