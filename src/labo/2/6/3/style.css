@@ -1,0 +1,101 @@
+table, tr, td {
+    border-collapse: collapse;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+table {
+    border-style: hidden;
+}
+
+td {
+    border: 2px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
+
+.border-thick-bottom {
+    border-bottom-width: 4px;
+}
+
+.border-thick-right {
+    border-right-width: 4px;
+}
+
+.border-thick-top {
+    border-top-width: 4px;
+}
+
+tr:nth-child(1), tr:nth-child(1) > td {
+    visibility: hidden;
+    border: none;
+}
+
+#top-row, #top-row > td {
+    border-top: none;
+}
+
+
+#top-row > td {
+    height: 20px;
+}
+
+#top-second {
+    width: 70px;
+}
+
+#big-red-box {
+    height: 90px;
+    width: 90px;
+}
+
+#second-left {
+    height: 45px;
+    width: 20px;
+}
+
+#third-left-half, #third-right-half {
+    width: 25px;
+}
+
+#fourth-second, #fifth-second {
+    width: 45px;
+    height: 20px;
+}
+
+#big-black-box {
+    width: 45px;
+}
+
+#bottom-left {
+    height: 45px;
+}
+
+#big-blue-box {
+    width: 50px;
+    height: 30px;
+}
+
+#last-element {
+    height: 7px;
+}
+
+#bottom-right {
+    width: 10px;
+}
