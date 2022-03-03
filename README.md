@@ -70,6 +70,7 @@
                 <ol type="1" start="1">
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/3/8/1/">Mail formuliertje</a></li>
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/3/8/2/">StuVo enquete</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/3/8/3/">Formulier met afbeeldingen</a></li>
                 </ol>
             </li>
         </ol>

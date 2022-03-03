@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 3.8.3</title>
+    <style>
+        form img {
+            width: 50px;
+            vertical-align: middle;
+        }
+        
+        #browser-checkbox-td-first {
+            width: 60px;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:example@mail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Persoonlijke informatie</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="voornaam">Voornaam:</label>
+                        <td><input type="text" name="voornaam" id="voornaam" minlength="2"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="achternaam">Achternaam:</label>
+                        <td><input type="text" name="achternaam" id="achternaam" minlength="2"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="emailadres">Emailadres:</label>
+                        <td><input type="email" name="emailadres" id="emailadres"></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Geslacht:</td>
+                        <td><label><input type="radio" name="geslacht" value="man"> Man</label></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="radio" name="geslacht" value="vrouw"> Vrouw</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="geboorteplaats">Geboorteplaats:</label></td>
+                        <td><input type="date" name="geboorteplaats" id="geboorteplaats"
+                                   placeholder="Kies geboortedatum"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="woonplaats">Woonplaats:</label></td>
+                        <td>
+                            <input type="text" name="woonplaats" id="woonplaats" list="woonplaatsen"
+                                   placeholder="geef provincie">
+                            <datalist id="woonplaatsen">
+                                <option value="Antwerpen"></option>
+                                <option value="West-Vlaanderen"></option>
+                                <option value="Oost-Vlaanderen"></option>
+                                <option value="Limburg"></option>
+                                <option value="Vlaams-Brabant"></option>
+                            </datalist>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Informatie over uw computer</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td rowspan="5">Welke browsers heb je ter beschikking?</td>
+                        <td id="browser-checkbox-td-first">
+                            <input type="checkbox" name="browser-ie" id="browser-ie">
+                        </td>
+                        <td>
+                            <label for="browser-ie">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Internet_Explorer_10%2B11_logo.svg"
+                                     alt="Logo Internet Explorer">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="browser-firefox" id="browser-firefox">
+                        </td>
+                        <td>
+                            <label for="browser-firefox">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg"
+                                     alt="Logo Firefox">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="browser-opera" id="browser-opera">
+                        </td>
+                        <td>
+                            <label for="browser-opera">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Opera_browser_logo_2013_vector.svg"
+                                     alt="Logo Opera">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="browser-safari" id="browser-safari">
+                        </td>
+                        <td>
+                            <label for="browser-safari">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Safari_browser_logo.svg"
+                                     alt="Logo Safari">
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="browser-andere" id="browser-andere">
+                        </td>
+                        <td>
+                            <label for="browser-andere">
+                                Andere
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="foto">
+                                Voeg een foto toe van je computer
+                            </label>
+                        </td>
+                        <td colspan="2">
+                            <input type="file" name="foto" id="foto">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <input type="reset" value="Wis de ingevoerde gegevens">
+        <input type="submit" value="Verzend de ingevoerde gegevens">
+    </form>
+</body>
+</html>
