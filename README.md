@@ -66,6 +66,11 @@
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/3/7/2/">Video</a></li>
                 </ol>
             </li>
+            <li> Formulieren
+                <ol type="1" start="1">
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/3/8/1/">Mail formuliertje</a></li>
+                </ol>
+            </li>
         </ol>
     </li>
 </ol>

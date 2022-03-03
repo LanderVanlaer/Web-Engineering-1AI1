@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 3.8.1</title>
+    <style>
+        div {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:example@mail.com?subject=formuliertje" method="post" enctype="text/plain">
+        <div>
+            <label>Naam: <input type="text" name="name" id="name" placeholder="Typ hier uw naam"></label>
+        </div>
+        <div>
+            Geslacht:
+            <br>
+            <label>
+                Man: <input type="radio" name="geslacht" value="man">
+            </label>
+            <br>
+            <label>
+                Vrouw: <input type="radio" name="geslacht" value="vrouw">
+            </label>
+        </div>
+        <div>
+            Haarkleur:
+            <br>
+            <label>Zwart: <input type="checkbox" name="haarkleur-zwart"></label>
+            <br>
+            <label>Bruin: <input type="checkbox" name="haarkleur-bruin"></label>
+            <br>
+            <label>Blond: <input type="checkbox" name="haarkleur-blond"></label>
+        </div>
+        <div>
+            <label>Provincie:
+                <select name="provincie" id="provincie">
+                    <option value="Antwerpen">Antwerpen</option>
+                    <option value="Limburg">Limburg</option>
+                    <option value="Oost-Vlaanderen">Oost-Vlaanderen</option>
+                    <option value="West-Vlaanderen">West-Vlaanderen</option>
+                    <option value="Vlaams-Brabant">Vlaams-Brabant</option>
+                    <option value="Henegouwen">Henegouwen</option>
+                    <option value="Luik">Luik</option>
+                    <option value="Luxemburg">Luxemburg</option>
+                    <option value="Namen">Namen</option>
+                    <option value="Waal-Brabant">Waal-Brabant</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label> Opmerking:<br>
+                <textarea name="opmerking" placeholder="Typ hier een opmerking" cols="30" rows="10"></textarea>
+            </label>
+        </div>
+        <div>
+            <button type="submit">Mail</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
