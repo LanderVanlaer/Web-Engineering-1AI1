@@ -63,6 +63,7 @@
             <li> Afbeeldingen
                 <ol type="1" start="1">
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/3/7/1/">Afbeelding & link</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/3/7/2/">Video</a></li>
                 </ol>
             </li>
         </ol>
