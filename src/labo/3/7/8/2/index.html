@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 3.8.2</title>
+    <style>
+        body {
+            background-color: lightyellow;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        table thead th {
+            width: 100px;
+        }
+        
+        #table-top-left {
+            width: 250px;
+        }
+        
+        #table-geen-mening {
+            width: 175px;
+        }
+        
+        table tbody th {
+            text-align: left;
+        }
+        
+        table tbody td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>StuVo-enquete</h1>
+    <hr>
+    <form action="#" method="get">
+        Wat vindt u van:
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col" id="table-top-left"></th>
+                    <th scope="col">Slecht</th>
+                    <th scope="col">Redelijk</th>
+                    <th scope="col">Goed</th>
+                    <th scope="col">Heel goed</th>
+                    <th scope="col" id="table-geen-mening">Geen mening</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Kwaliteit van de broodjes</th>
+                    <td><input type="radio" name="kwaliteit-broodjes" value="slecht"></td>
+                    <td><input type="radio" name="kwaliteit-broodjes" value="redelijk"></td>
+                    <td><input type="radio" name="kwaliteit-broodjes" value="goed"></td>
+                    <td><input type="radio" name="kwaliteit-broodjes" value="heelgoed"></td>
+                    <td><input type="radio" name="kwaliteit-broodjes" value="geenmening"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Prijs van de broodjes</th>
+                    <td><input type="radio" name="prijs-broodjes" value="slecht"></td>
+                    <td><input type="radio" name="prijs-broodjes" value="redelijk"></td>
+                    <td><input type="radio" name="prijs-broodjes" value="goed"></td>
+                    <td><input type="radio" name="prijs-broodjes" value="heelgoed"></td>
+                    <td><input type="radio" name="prijs-broodjes" value="geenmening"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Kwaliteit van het warm eten</th>
+                    <td><input type="radio" name="kwaliteit-eten" value="slecht"></td>
+                    <td><input type="radio" name="kwaliteit-eten" value="redelijk"></td>
+                    <td><input type="radio" name="kwaliteit-eten" value="goed"></td>
+                    <td><input type="radio" name="kwaliteit-eten" value="heelgoed"></td>
+                    <td><input type="radio" name="kwaliteit-eten" value="geenmening"></td>
+                </tr>
+                <tr>
+                    <th scope="row">Prijs van het warm eten</th>
+                    <td><input type="radio" name="prijs-eten" value="slecht"></td>
+                    <td><input type="radio" name="prijs-eten" value="redelijk"></td>
+                    <td><input type="radio" name="prijs-eten" value="goed"></td>
+                    <td><input type="radio" name="prijs-eten" value="heelgoed"></td>
+                    <td><input type="radio" name="prijs-eten" value="geenmening"></td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <button type="submit">Versturen</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
