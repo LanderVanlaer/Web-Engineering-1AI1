@@ -81,6 +81,7 @@
                 <ol type="1" start="1">
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/4/10/1/">zoekvak</a></li>
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/4/10/2/">extra par</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/4/10/3/">Het HTML5 Project</a></li>
                 </ol>
             </li>
         </ol>

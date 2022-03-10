@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #9Cf;
+}
+
+body {
+    min-width: 600px;
+    max-width: 900px;
+    width: 75vw;
+    margin: 0 auto;
+    font-family: Arial, serif;
+}
+
+body header, body main, body aside {
+    margin: 3px;
+    background-color: white;
+    border: 1px solid blue;
+}
+
+header {
+    display: block;
+}
+
+header img {
+    vertical-align: top;
+    margin-bottom: 20px;
+    width: 13%;
+}
+
+header h1 {
+    display: inline-block;
+    padding-top: 13px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+body > div.split {
+    font-size: 0;
+}
+
+body > div.split > main, body > div.split > aside {
+    box-shadow: 1px 1px 4px #4f6480;
+    display: inline-block;
+    font-size: 10px;
+}
+
+main {
+    width: 73%;
+    padding: 5px;
+}
+
+main img {
+    width: 30%;
+    display: inline-block;
+    float: left;
+    margin: 1%;
+}
+
+main h2 {
+    font-weight: bolder;
+    margin: 10px;
+}
+
+aside {
+    float: right;
+    width: calc(27% - 12px);
+    border-bottom-right-radius: 10px;
+    padding: 3px 10px 10px 10px;
+}
+
+aside h2 {
+    font-weight: bold;
+    margin: 7px 0;
+}
+
+aside div.radios label {
+    display: block;
+    margin-left: 10px;
+}
+
+aside div.radios input {
+    width: 9px;
+    vertical-align: sub;
+}
+
+aside div.login label {
+    display: block;
+}
+
+aside div.login label input,
+aside div.login label input:focus,
+aside div.login label input:active {
+    width: 50%;
+    margin: 1px;
+    outline: none;
+    border: 1px inset lightgray;
+}
+
+aside ul {
+    list-style: disc;
+    padding-left: 15px;
+}
+
+footer {
+    padding: 0 10px 0 7px;
+    font-size: 10px;
+    width: 75%;
+}
+
+footer nav {
+    display: inline-block;
+    float: right;
+}
+
+footer nav li {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 4px #4f6480;
+    color: blue;
+    padding: 5px 15px;
+    font-size: 11px;
+}
