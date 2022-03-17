@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 5.14.4</title>
+    <style>
+        table td, table th, table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        table td {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">getal</th>
+                <th scope="col">waarde</th>
+            </tr>
+        </thead>
+        <tbody>
+            <script>
+                let total = 0,
+                        i = 0,
+                        val;
+                
+                while (val = Number(prompt("Geef een getal"))) {
+                    total += val;
+                    ++i;
+                    document.write(`<tr><td>getal${i}</td><td>${val}</td></tr>`);
+                }
+                
+                document.write(`
+                <tfoot>
+                    <tr>
+                        <th scope="row">totaal</th>
+                        <td>${total}</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">gemiddelde</th>
+                        <td>${Math.round(total / i * 100) / 100}</td>
+                    </tr>
+                </tfoot>
+            `);
+            </script>
+        </tbody>
+    </table>
+</body>
+</html>
