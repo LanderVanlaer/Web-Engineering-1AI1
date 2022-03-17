@@ -103,6 +103,11 @@
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/13/2/">tijd verschil</a></li>
                 </ol>
             </li>
+            <li> JavaScript iteratie
+                <ol type="1" start="1">
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/14/1/">naam juist?</a></li>
+                </ol>
+            </li>
         </ol>
     </li>
 </ol>
