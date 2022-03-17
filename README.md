@@ -90,7 +90,8 @@
         <ol type="1" start="12">
             <li> fundamentele bouwstenen van JavaScript
                 <ol type="1" start="1">
-                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/12/1/">naam en adres</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/12/1/">naam en adres document.write</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/12/1/">naam en adres alert</a></li>
                 </ol>
             </li>
         </ol>
