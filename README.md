@@ -97,6 +97,11 @@
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/12/5/">gemiddelde 5 getallen</a></li>
                 </ol>
             </li>
+            <li> JavaScript selectie
+                <ol type="1" start="1">
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/13/1/">kleinder/groter dan</a></li>
+                </ol>
+            </li>
         </ol>
     </li>
 </ol>
