@@ -100,6 +100,7 @@
             <li> JavaScript selectie
                 <ol type="1" start="1">
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/13/1/">kleinder/groter dan</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/13/2/">tijd verschil</a></li>
                 </ol>
             </li>
         </ol>

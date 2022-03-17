@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 5.13.2</title>
+</head>
+<body>
+    <table>
+        <script>
+            const dag1Str = prompt("geef een tijd in het formaat uu:mm:ss");
+            const dag2Str = prompt("geef een 2de tijd in het formaat uu:mm:ss");
+            
+            const dag1 = dag1Str.split(":").map(Number);
+            const dag2 = dag2Str.split(":").map(Number);
+            
+            document.write(`<tr><td>start</td><td>${dag1.join(" ")}</td></tr>`);
+            document.write(`<tr><td>einduur</td><td>${dag2.join(" ")}</td></tr>`);
+            
+            if (dag1[0] > dag2[0] ||
+                    (dag1[0] === dag2[0] && dag1[1] > dag2[1]) ||
+                    (dag1[0] === dag2[0] && dag1[1] === dag2[1]) && dag1[2] > dag2[2]
+            )
+                dag2[0] += 24;
+            
+            const verschil = dag2.map((x, i) => x - dag1[i]);
+            
+            if (verschil[2] < 0) {
+                verschil[2] += 60;
+                --verschil[1];
+            }
+            if (verschil[1] < 0) {
+                verschil[1] += 60;
+                --verschil[0];
+            }
+            
+            document.write(`<tr><td>verschil</td><td>${verschil.join(" ")}</td></tr>`);
+        </script>
+    </table>
+
+</body>
+</html>
