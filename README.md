@@ -94,6 +94,7 @@
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/12/2/">naam en adres alert</a></li>
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/12/3/">som, prompt</a></li>
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/12/4/">quotiënt, modulo</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/5/12/5/">gemiddelde 5 getallen</a></li>
                 </ol>
             </li>
         </ol>
