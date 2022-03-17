@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 5.14.2</title>
+</head>
+<body>
+    <script>
+        let total = 0,
+                i = 0,
+                val;
+        
+        while (val = Number(prompt("Geef een getal"))) {
+            total += val;
+            ++i;
+        }
+        
+        document.write(`De som is ${total}<br>Het gemiddelde is ${Math.round(total / i * 100) / 100}`);
+    </script>
+</body>
+</html>
