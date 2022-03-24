@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 6.15.4</title>
+</head>
+<body>
+    <script>
+        const randomNumber = Math.floor(Math.random() * 100) + 1;
+        let i = 0;
+        let guesse = 0;
+        
+        do {
+            ++i;
+            guesse = Number(prompt("Raad:"));
+            if (guesse < randomNumber)
+                alert("Te laag");
+            else if (guesse > randomNumber)
+                alert("Te hoog");
+        }
+        while (guesse !== randomNumber);
+        
+        document.write(`U heeft in totaal ${i} keer geprobeerd`);
+    </script>
+</body>
+</html>
