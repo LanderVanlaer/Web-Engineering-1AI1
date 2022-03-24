@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 6.15.3</title>
+    <style>
+        table * {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">toerenaantal</th>
+                <th scope="col">snelheid</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    <script>
+        const tbody = document.getElementById("tbody");
+        
+        for (let toerental = 2000; toerental <= 8000; toerental += 500) {
+            const tr = document.createElement("tr");
+            const tdSnelheid = document.createElement("td");
+            const tdToerental = document.createElement("td");
+            
+            tdToerental.textContent = toerental;
+            tdSnelheid.textContent = Math.round(snelheidByToerenaantal(toerental));
+            
+            tr.append(tdToerental, tdSnelheid);
+            tbody.appendChild(tr);
+        }
+        
+        function snelheidByToerenaantal(toerenaantal) {
+            return (toerenaantal * 1.969 * 0.06) / 3.321;
+        }
+    </script>
+</body>
+</html>

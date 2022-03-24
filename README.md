@@ -119,6 +119,7 @@
                 <ol type="1" start="1">
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/6/15/1/">eval() expressie uitvoeren</a></li>
                     <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/6/15/2/">rendement</a></li>
+                    <li><a href="https://landervanlaer.github.io/Web-Engineering-1AI1/src/labo/6/15/3/">toerenaantal | snelheid</a></li>
                 </ol>
             </li>
         </ol>
