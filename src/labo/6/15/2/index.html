@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 6.15.2</title>
+</head>
+<body>
+    <div id="rendement"></div>
+    
+    <script>
+        const inleg = Number(prompt("Wat is de inleg? (euro)", 1000));
+        const eindbedrag = Number(prompt("Wat is het eindbedrag? (euro)", 1250));
+        const looptijd = Number(prompt("Hoe lang loopt de looptijd? (jaar)", 5));
+        
+        document.getElementById("rendement").innerHTML = `Als &euro; ${inleg} na ${looptijd} jaar &euro; ${eindbedrag}
+        oplevert geeft dit een rendement van ${Math.round((Math.pow((eindbedrag / inleg), (1 / looptijd)) - 1) * 10000) / 100}&percnt;`;
+    </script>
+</body>
+</html>
