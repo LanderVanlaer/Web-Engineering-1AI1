@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 6.15.1</title>
+</head>
+<body>
+    <div id="expressies"></div>
+    <script>
+        const expressies = document.getElementById("expressies");
+        let aantal;
+        
+        while (!(aantal = Number(prompt("Hoeveel Expressies wilt u uitrekenen?", 1))) || aantal < 0) {
+            alert("Geef een getal in dat groter is dan 0");
+        }
+        
+        for (let i = 0; i < aantal; i++) {
+            const expressie = prompt("Geef een expressie", "<expressie>");
+            const divElement = document.createElement("div");
+            divElement.innerHTML = `${expressie} &#8594 ${eval(expressie)}`;
+            
+            expressies.appendChild(divElement);
+        }
+    </script>
+</body>
+</html>
