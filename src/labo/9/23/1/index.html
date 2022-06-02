@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8" />
+    <title>Labo 9.23.1</title>
+    <link href="surprise.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('.teaser').hover(() => {
+                $('.surprise').slideDown();
+            });
+            $('.surprise').click(() => {
+                $('.surprise').slideUp();
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>jQuery</h1>
+    <ol>
+        <li>wanneer de <em>muiscursor</em> over de rode "teaser" bovenaan komt, dan moet de surprise div naar beneden
+            schuiven.
+        </li>
+        <li><em>klik</em> je daarna op de surprise div, dan moet die surprise div opnieuw naar boven schuiven.</li>
+    </ol>
+    <hr />
+    
+    <div class="surprise">Surprise!</div>
+    <div class="teaser">
+        Mouse hover here!
+    </div>
+
+</body>
+</html>
