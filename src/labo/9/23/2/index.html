@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labo 9.23.2</title>
+    <style>
+        div#images {
+            width: 334px;
+            height: 500px;
+            position: relative;
+        }
+        
+        div#images img {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        div#images img[src="images/passportcoded.jpg"] {
+            z-index: 100;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $("#checkCode").click(() => {
+                if ($("#password").val() !== 'jasonb')
+                    return $("#message").text('Denied');
+                
+                $("#message").text('Granted');
+                $('img[src="images/passportcoded.jpg"]').fadeOut();
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1 id="message">Identification</h1>
+    <div id="images">
+        <img src="images/passportcoded.jpg">
+        <img src="images/passport.jpg">
+    </div>
+    <input id="password" type="password">
+    <button id="checkCode">Check Code</button>
+</body>
+</html>
